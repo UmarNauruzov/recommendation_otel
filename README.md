@@ -24,19 +24,19 @@
 
 *Примечание*
 
-Мною использовались не весь объем данных, а только 500000 записей.
+Мною использовались не весь объем данных, а только 100000 записей, при этом замечено, что при увелечении количества записей, точность уменьшается.
 
 Далее данные поданы модели RandomForestClassifier(случайное дерево), и при помощи модели GridSearchCV были выбраны наиболее эффективные параметры. 
 
 #### Результаты тестовых данных:
-- Precision:
-- Accuracy:
+- Precision: 0.3396235000610647
+- Accuracy: 27.72%
 
 Далее модели на предсказания были поданы тестовые данные, в которых отсутсвует целевой признак.
 
 #### Результаты на подготовленных тестовых данных:
 
-- Точность: 
+- Точность: 0.387
 
 Идеи для улучшения:
 
@@ -45,4 +45,4 @@
 
 ### Run in `Google Colab`
 
- <a href="https://colab.research.google.com/drive/17SLLZBiK9quaUlKHS1ZURc47nybcJrOT?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+ <a href="https://colab.research.google.com/drive/1nvvYXPAN4H9lhdDW7UxklA3zC2m5b__Q?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
